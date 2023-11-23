@@ -1,0 +1,92 @@
+.container {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background: #ea256e;
+	border: solid;
+	border-color: #000;
+	border-width: 1px;
+	overflow: hidden;
+}
+
+#left_heart {
+	position: absolute;
+	top: 8px;
+	overflow: hidden;
+	right: 151px;
+	display: none;
+}
+
+#right_heart {
+	position: absolute;
+	top: 8px;
+	
+	right: 32px;
+	display: none;
+
+}
+
+#together {
+	position: absolute;
+	top: -100px;
+	left: 76px;
+
+}
+
+#main_text {
+	position: absolute;
+	top: -130px;
+	left: 40px
+}
+
+#end_frame_back {
+	position: absolute;
+	background-color: #f8cfce;
+	width: 300px;
+	height: 250px;
+	top: -330px;
+}
+
+#containers {
+	position: absolute;
+	left: 80px;
+	top: -300px;
+}
+
+#end_frame_heart {
+position: absolute;
+left: 30px;
+top: 14px;
+z-index: 1;
+}
+
+#together_end_frame {
+	position: absolute;
+	top: 62px;
+	left: 72px;
+	z-index: 2;
+	opacity: 0;
+}
+
+#learn_more {
+	position: absolute;
+	top: 125px;
+	z-index: 2;
+	opacity: 0;
+}
+
+#logo {
+	position: absolute;
+	top: 204px;
+	left: 14px;
+	z-index: 1;
+	opacity: 0;
+}
+
+#tag {
+	position: absolute;
+	top: 212px;
+	left: 171px;
+	z-index: 1;
+opacity: 0;
+}
